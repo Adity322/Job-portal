@@ -109,5 +109,5 @@ Deployment (Render / Vercel / MongoDB Atlas)
 👨‍💻 Author
 Aditya Singh
 B.Tech (2nd Year)
-Full Stack Developer | DSA Enthusiast |
+Full Stack Developer | 
 
