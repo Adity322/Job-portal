@@ -59,7 +59,8 @@ app.get("/protected", authMiddleware, (req, res) => {
 // ===================
 // Server
 // ===================
-app.listen(8000, () => {
-  console.log("Server started on port 8000 🚀");
+const PORT = process.env.PORT || 8000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
-console.log("JWT_SECRET:",process.env.JWT_SECRET);
